@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Criar Receita</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body class="login-box col-6 mx-auto bg-dark">
+        <div id="create-recipe-box" class="bg-dark justify-content-center text-center">
+            <form action="">
+                <h2 class="text-primary text-center">Crie uma Receita:</h2>
+                <label for="recipe-title" class="text-white">Nome da sua Receita?</label>
+                <input
+                    type="text"
+                    class="form-control mb-3"
+                    id="recipe-title"
+                    placeholder="Digite o nome da sua receita:"
+                    required="required"
+                    autofocus="autofocus"></input>
+                <label for="level" class="text-white">De 1 a 5, qual a dificuldade dessa receita?</label>
+                <input
+                    type="number"
+                    class="form-control mb-3 level-recipe"
+                    id="level-recipe"
+                    placeholder="De 1 a 5:"
+                    required="required"
+                    autofocus="autofocus"></input>
+                <label for="description" class="text-white">Nos envie uma foto da sua receita!</label>
+                <input
+                    type="file"
+                    class="form-control mb-3 img-recipe"
+                    id="img-recipe"
+                    required="required"
+                    autofocus="autofocus"></input>
+                <label for="ingredients" class="text-white">
+                    Nos conte quais os Ingredientes necessários!
+                </label>
+                <textarea
+                    rows="10"
+                    type="text"
+                    class="form-control"
+                    id="ingredients"
+                    required="required"
+                    placeholder="Digite os Ingredientes necessários..."></textarea>
+                <label for="description" class="text-white">Nos conte o passo a passo da sua receita!</label>
+                <textarea
+                    rows="10"
+                    type="text"
+                    class="form-control"
+                    id="description"
+                    required="required"
+                    placeholder="Digite o passo a passo..."></textarea>
+                <a class="btn btn-block btn-primary mt-4 mb-2 align-center" href="index.html">Cadastrar Receita</a>
+            </form>
+            <a class="btn btn-block btn-secondary" href="index.html">Voltar</a>
+        </div>
+        <br>
+    </body>
+</html>

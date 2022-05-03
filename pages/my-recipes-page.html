@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minhas Receitas</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+
+    <body class="login-box col-10 mx-auto bg-dark">
+        <main>
+            <div id="my-recipes-page" class="bg-dark justify-content-center">
+                <h2 class="text-primary text-center">Minhas Receitas</h2>
+                <table class="table table-striped table-dark">
+                    <thead class="thead-dark">
+                        <th class="text-white text-center">Nome</th>
+                        <th class="text-white text-center">Nível de Dificuldade</th>
+                        <th class="text-white text-center">Data de Publicação</th>
+                        <th class="text-white text-center">Likes</th>
+                        <th class="text-white text-center"></th>
+                        <th class="text-white text-center"></th>
+                        <th class="text-white text-center"></th>
+                    </thead>
+                    <tbody>
+                        <!-- Row -->
+                        <tr>
+                            <td class="text-white text-center">Bolo de Chocolate</td>
+                            <td class="text-white text-center">3</td>
+                            <td class="text-white text-center">21/04/2022</td>
+                            <td class="text-white text-center">10</td>
+                            <td class="text-white text-center">
+                                <form action="">
+                                    <a class="btn btn-info" href="show-recipe-page.html">
+                                        <img class="icon" src="../imgs/icons/see-icon.png" alt="see icon image">Ver
+                                    </a>
+                                </form>
+                            </td>
+                            <td class="text-white text-center">
+                                <form action="">
+                                    <a class="btn btn-success" href="edit-recipe-page.html">
+                                        <img class="icon" src="../imgs/icons/edit-icon.png" alt="edit icon image">Editar
+                                    </a>
+                                </form>
+                            </td>
+                            <td class="text-white text-center">
+                                <form action="">
+                                    <a class="btn btn-danger" href="index.html">
+                                        <img class="icon" src="../imgs/icons/delete-icon.png" alt="delete icon image">Deletar
+                                    </a>
+                                </form>
+                            </td>
+                            <!-- Row Fim -->
+                        </tr>
+                        <tr>
+                            <td class="text-white text-center">Bolo de Chocolate</td>
+                            <td class="text-white text-center">3</td>
+                            <td class="text-white text-center">21/04/2022</td>
+                            <td class="text-white text-center">10</td>
+                            <td class="text-white text-center">
+                                <form action="">
+                                    <a class="btn btn-info" href="edit-recipe-page.html">
+                                        <img class="icon" src="../imgs/icons/see-icon.png" alt="see icon image">Ver
+                                    </a>
+                                </form>
+                            </td>
+                            <td class="text-white text-center">
+                                <form action="">
+                                    <a class="btn btn-success" href="edit-recipe-page.html">
+                                        <img class="icon" src="../imgs/icons/edit-icon.png" alt="edit icon image">Editar
+                                    </a>
+                                </form>
+                            </td>
+                            <td class="text-white text-center">
+                                <form action="">
+                                    <a class="btn btn-danger" href="index.html">
+                                        <img class="icon" src="../imgs/icons/delete-icon.png" alt="delete icon image">Deletar
+                                    </a>
+                                </form>
+                            </td>
+                            <!-- Row Fim -->
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="btn btn-block btn-secondary" href="index.html">Voltar</a>
+            </div>
+        </main>
+        <!-- Paginação -->
+        <div class="text-center mx-auto">
+            <a class="text-white" href="my-recipes-page.html">
+                <strong>1</strong>
+            </a>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+main{
+    background: linear-gradient(to bottom,#699c90, #36b897, #21dfb2,#36b897, #699c90);
+    animation: colors 15s ease infinite;
+}
+
+#title-box {
+    background-image: url("../imgs/back.jpg");
+}
+
+#h1-title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 400%;
+    text-shadow: 4px 4px black;
+}
+
+.recipe-image {
+    max-width: 30%;
+}
+
+#login-box-login,
+#login-box-create,
+#my-recipes-page,
+#create-recipe-box {
+    padding: 1em;
+    box-shadow:5px 5px 50px 50px #050505;
+}
+
+#show-recipe{
+    padding: 1em;
+}
+
+#login-box-login{
+    margin-top: 28%;
+}
+
+#login-box-create{
+    margin-top: 18%;
+}
+
+#my-recipes-page{
+    margin-top: 30%;
+}
+
+.login-box{
+    background-image: url("../imgs/back-create-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#recipes-users-qtd{
+    width: 120px;
+    padding:0.1em;
+    margin-left: 90%;
+    margin-top: -6%;
+}
+
+.qtd-boxes{
+    margin-top: 10px;
+    padding: 0.2em;
+    line-height:2px
+}
+
+#create-recipe-box, 
+#my-recipes-page{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.icon{
+    width: 20px;
+}
